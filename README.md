@@ -48,9 +48,11 @@ backend handles physics calculations, frontend renders the results. uses NASA JP
 
 ## Large Data File
 
-The population data file (251MB) is too large for GitHub. Download it manually:
+The population data file (251MB) is too large for GitHub. Download it here:
 
-1. Get `GHS_POP_E2030_GLOBE_R2023A_54009_1000_V1_0.tif` from [EU Global Human Settlement](https://ghsl.jrc.ec.europa.eu/download.php)
+**Direct Download:** [GHS_POP_E2030_GLOBE_R2023A_54009_1000_V1_0.tif](https://drive.google.com/file/d/1n0jSAj4rl5dhPvRGAa4s-PMr3YHpPmh5/view?usp=sharing)
+
+1. Download the file from Google Drive
 2. Place it in `Meteor_Madness_Backend/utils/`
 3. Or run without it - population estimates will use fallback calculations
 
