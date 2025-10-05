@@ -1,0 +1,59 @@
+# Python / FastAPI Backend Ignore File
+# Keep requirements.txt tracked explicitly.
+
+# Virtual environments
+env/
+venv/
+*.venv/
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+logs/
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# PyInstaller
+*.spec
+
+# Coverage / test artifacts
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Cache tools
+.mypy_cache/
+ruff_cache/
+.pyre/
+
+# Generated images or plots (adjust if you want to keep some)
+*.png
+!README*.png
+
+# Uvicorn reload artifacts
+.reload*
+
+# NOTE: requirements.txt is intentionally NOT ignored.

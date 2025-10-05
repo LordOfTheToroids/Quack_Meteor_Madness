@@ -1,0 +1,11 @@
+*/node_modules
+*/dist
+*/.git
+*/__pycache__
+*/env
+*/env_old_py39
+*/.env
+*/test_*
+*.md
+.DS_Store
+*.log

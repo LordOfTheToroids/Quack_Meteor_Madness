@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+requests
+numpy
+scipy
+astropy
+astroquery
+utm
+poliastro
+matplotlib
+rasterio
+shapely
+pyproj

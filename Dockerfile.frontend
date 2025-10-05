@@ -1,0 +1,19 @@
+FROM node:18-alpine
+
+WORKDIR /app
+
+# copy package files
+COPY Meteor_Madness_Frontend/package*.json ./
+RUN npm ci
+
+# copy source
+COPY Meteor_Madness_Frontend/ .
+
+# build
+RUN npm run build
+
+# serve with simple static server
+RUN npm install -g serve
+EXPOSE 3000
+
+CMD ["serve", "-s", "dist", "-l", "3000"]
